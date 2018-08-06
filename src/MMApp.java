@@ -55,7 +55,8 @@ public class MMApp {
 			
 			zahlenBreaker[i] = Ausgabe.UserEingabe();
 
-	
+			// Ab hier Fehler:
+			// <----- Array zahlenBreaker[1][] hat nur noch 5 Felder!!! Warum???????
 			zahlenBreaker[i][5] = Zahlenkontrolle.kontrolleUserZahlenExakt(zahlenBreaker[i], zahlenMaker);
 			zahlenBreaker[i][6] = Zahlenkontrolle.kontrolleUserZahlenVorhanden(zahlenBreaker[i], zahlenMaker);
 			
