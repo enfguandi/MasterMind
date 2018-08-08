@@ -2,9 +2,10 @@ package controller;
 
 public class Zufallszahlen {
 
-	public static int [] erstellen() {
+//	Erstellen von 4 Zufallszahlen und spiechern dieser in dem Maker Array
+	public static void erstellen(int [] maker) {
 		
-		int maker[] = new int[4];
+//		int maker[] = new int[4];
 		int zufallsZahl = 0;
 		
 		for(int i=0; i<4; i++) {
@@ -19,6 +20,6 @@ public class Zufallszahlen {
 
 		}
 		
-		return maker;
+//		return maker;
 	}
 }
